@@ -1,0 +1,28 @@
+OnlineEcommercePlatform/
+│
+├── src/
+│   ├── model/
+│   │   ├── User.java
+│   │   ├── Admin.java
+│   │   ├── Seller.java
+│   │   ├── Buyer.java
+│   │   ├── Product.java
+│   │   └── Order.java
+│   │
+│   ├── dao/
+│   │   ├── DBConnection.java
+│   │   ├── UserDAO.java
+│   │   ├── ProductDAO.java
+│   │   └── OrderDAO.java
+│   │
+│   ├── service/
+│   │   ├── UserService.java
+│   │   ├── ProductService.java
+│   │   └── OrderService.java
+│   │
+│   ├── controller/
+│   │   └── MainController.java
+│   │
+│   └── Main.java
+│
+└── README.md
