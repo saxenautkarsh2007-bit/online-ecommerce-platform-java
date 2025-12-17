@@ -1,0 +1,13 @@
+package service;
+
+import dao.ProductDAO;
+import model.Product;
+
+public class ProductService {
+
+    ProductDAO dao = new ProductDAO();
+
+    public void addProduct(Product p) {
+        dao.addProduct(p);
+    }
+}
